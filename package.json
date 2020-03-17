@@ -1,0 +1,41 @@
+{
+  "name": "vunion",
+  "version": "1.0.0-alpha.9",
+  "description": "State Management System for Vue with intellisense support",
+  "main": "dist/vunion.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "dist",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatWionGuy/vunion.git"
+  },
+  "keywords": [
+    "vue",
+    "state",
+    "reactive"
+  ],
+  "author": "Johnathon Wion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThatWionGuy/vunion/issues"
+  },
+  "homepage": "https://github.com/ThatWionGuy/vunion#readme",
+  "devDependencies": {
+    "@rollup/plugin-replace": "^2.3.1",
+    "vue": "^2.6.11"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  }
+}
