@@ -1,6 +1,6 @@
 {
   "name": "vunion",
-  "version": "1.0.0-alpha.10",
+  "version": "1.0.0-alpha.11",
   "description": "State Management System for Vue with intellisense support",
   "main": "dist/vunion.js",
   "types": "types/index.d.ts",
